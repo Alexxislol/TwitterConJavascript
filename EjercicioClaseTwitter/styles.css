@@ -1,0 +1,73 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #00f7ff;
+}
+
+.contenedor {
+    position: absolute;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #000;
+    text-align: center;
+    background-color: #b7b7b7;
+    top: 50px;
+}
+
+#HoraFecha {
+    font-size: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    left: -260px;
+}
+
+.ContenedorTW {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#addButton {
+    width: 28%;
+    padding: 10px;
+    background-color: #05830a;
+    height: 40px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#tweetIngreso {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 40px;
+    margin-bottom: 10px
+}
+
+.TextTW {
+    flex-grow: 1;
+    font-size: larger;
+    text-align: left;
+}
+
+.BtnBorrar {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.divleft{
+    position: absolute;
+    top: 120px;
+    left: 28px;
+}
